@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3I3Crqt^(*pR4]_%mQ!y">mySprite</variable></variables><block type="pxt-on-start" id="NHeOi}f-Kzvj%*G-`h9V" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="MRZ~s=3x,O^D!~27bf3r"><value name="img"><shadow type="background_image_picker" id="nBX98KclM9]wh|!`fS:#"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3I3Crqt^(*pR4]_%mQ!y">mySprite</variable><variable type="KIND_SpriteKind" id="M|dJVf;i!]}+/iH}#PkW">Player</variable><variable type="KIND_SpriteKind" id="a6_LLTAEqEej^|9FWzEi">Projectile</variable><variable type="KIND_SpriteKind" id="wUX:{f%jia-X|p%5$e;p">Food</variable><variable type="KIND_SpriteKind" id="!i@{yaU)O~c,;w)+o68t">Enemy</variable></variables><block type="pxt-on-start" id="NHeOi}f-Kzvj%*G-`h9V" x="35" y="17"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="MRZ~s=3x,O^D!~27bf3r"><value name="img"><shadow type="background_image_picker" id="nBX98KclM9]wh|!`fS:#"><field name="img">img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -119,4 +119,21 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow><block type="background_image_picker" id="6kR.}AUeA-)Fx}(A7M|#"><field name="img">assets.image`BackgroundmyImage`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></block></value><next><block type="camerafollow" id="5Qx2mZqG^9tdG8$v![kn"><value name="sprite"><block type="variables_get" id="J*a4J*vp[GR$W)TU9QE`"><field name="VAR" id="3I3Crqt^(*pR4]_%mQ!y">mySprite</field></block></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow><block type="background_image_picker" id="6kR.}AUeA-)Fx}(A7M|#"><field name="img">assets.image`BackgroundmyImage`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></block></value><next><block type="variables_set" id="ooBSkaq}zXa1cLhe~;51"><field name="VAR" id="3I3Crqt^(*pR4]_%mQ!y">mySprite</field><value name="VALUE"><shadow type="math_number" id=";]/_nx$xFo77~3q/X0@="><field name="NUM">0</field></shadow><block type="spritescreate" id="NrfYab]J[E}hRq7DjNA2"><value name="img"><shadow type="screen_image_picker" id="-(A:GA0riAVNT6BBLh|2"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 5 5 . . . . . . . . 
+. . . . 5 5 5 5 5 5 5 . . . . . 
+. . . 5 5 5 5 5 5 5 5 5 . . . . 
+. . 5 5 5 5 5 5 5 5 5 5 . . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . 5 5 5 5 5 5 5 5 5 . . . . 
+. . . . 5 5 5 5 5 5 5 . . . . . 
+. . . . . 5 5 5 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="m{_va5;{l[ZhKa|,sk4p"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="camerafollow" id="5Qx2mZqG^9tdG8$v![kn"><value name="sprite"><block type="variables_get" id="J*a4J*vp[GR$W)TU9QE`"><field name="VAR" id="3I3Crqt^(*pR4]_%mQ!y">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
